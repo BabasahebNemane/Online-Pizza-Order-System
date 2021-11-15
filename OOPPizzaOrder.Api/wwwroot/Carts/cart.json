@@ -1,0 +1,51 @@
+{
+  "CustomerId": 0,
+  "CartLines": [
+    {
+      "Pizza": {
+        "Id": 2,
+        "PizzaName": "Fresh Veggie",
+        "Toppings": null,
+        "Price": 498.75,
+        "NumberOfPizza": 1
+      },
+      "Quantity": 1
+    },
+    {
+      "Pizza": {
+        "Id": 3,
+        "PizzaName": "Peppy Paneer",
+        "Toppings": null,
+        "Price": 698.25,
+        "NumberOfPizza": 1
+      },
+      "Quantity": 1
+    },
+    {
+      "Pizza": {
+        "Id": 1,
+        "PizzaName": "Margherita",
+        "Toppings": null,
+        "Price": 199.0,
+        "NumberOfPizza": 1
+      },
+      "Quantity": 1
+    },
+    {
+      "Pizza": {
+        "Id": 4,
+        "PizzaName": "Veg Extravaganza",
+        "Toppings": [
+          3,
+          4,
+          6
+        ],
+        "Price": 681.25,
+        "NumberOfPizza": 1
+      },
+      "Quantity": 1
+    }
+  ],
+  "TotalPrice": 2077.25,
+  "TotalQuantity": 4
+}

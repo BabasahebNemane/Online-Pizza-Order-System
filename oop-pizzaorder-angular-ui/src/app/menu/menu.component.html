@@ -1,0 +1,31 @@
+
+<h1 style="text-align: center; padding-top: 40px; padding-bottom: 40px;"
+class="animated pulse  infinite font-poppins">BESTSELLERS</h1>
+<div class="mainMenu">
+<div class="flex-container">
+<div class="subContainer"  *ngFor="let pizza of pizzaTypesForOrder;" >
+    <div class="cardr" >
+
+      <img src="assets/pic/{{pizza.name}}.jpg" class="img-fluid" style="width: 50%;height: auto; align-content: center; float: left;">
+
+      <div class="card-body">
+        <span class="itm-"style="text-align:left;"><b>{{pizza.name}}</b></span><br>
+        <h5 class="itm-"style="text-align: center;">{{pizza.description}}</h5>
+        <mat-form-field appearance="fill" class="selectBox" *ngIf="pizza.isPizza">
+          <mat-label>Size</mat-label>
+          <mat-select value="Small"  (selectionChange)="onChangeSize($event.value,pizza.id)">
+            <mat-option  *ngFor="let size of sizesForOrder"   [value]="size.id">
+              {{size.name}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+      </div>
+
+      <span class="rupee"><b>{{pizza.assignedValue}}</b></span> &nbsp;
+      <button mat-button color="primary" (click)="addPizzaToCart(pizza.id)" style="border: 1px ridge green;">Add To Cart</button>
+      <button mat-button style="border: 1px ridge green; " (click)="onCustomizeClick(pizza.id)"  *ngIf="pizza.isPizza" >Customize</button>
+    </div>
+  </div>
+</div>
+</div>

@@ -1,0 +1,19 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/OnlinePizzaOrderSystem",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:56908/",
+      "sslPort": 44348
+    }
+  },
+  "profiles": {
+    "OnlinePizzaOrderSystem": {
+      "commandName": "IISExpress"
+    }
+  }
+}

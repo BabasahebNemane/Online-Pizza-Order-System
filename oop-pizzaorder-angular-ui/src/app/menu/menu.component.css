@@ -1,0 +1,33 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 25vw;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.mainMenu{
+  padding-left: 200px;
+      padding-right: 200px;
+      height: 1200px;
+}
+.img-fluid{
+  margin-top: auto;
+  align-items: center ;
+}
+.rupee::before {
+  content: "₹ ";
+}
+.selectBox{
+  width: 10vw;
+    height: 6vh;
+}
+.mat-form-field-flex{
+  padding: 0px !important;
+  ;
+}

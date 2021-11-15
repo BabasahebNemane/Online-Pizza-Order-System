@@ -29,8 +29,8 @@ let say pizza have price X
 
 ## Features
 
-* [ASP.NET Core](http://www.dot.net/)
-* [Angular](https://angular.io/)
+* [ASP.NET Core](http://www.dot.net/) 2.1
+* [Angular](https://angular.io/) 7
 * [Angular CLI](https://cli.angular.io/)
 * [Best practices](https://angular.io/docs/ts/latest/guide/style-guide.html) in file and application organization for Angular.
 * [Clean Architecture](https://github.com/ardalis/CleanArchitecture) for Asp.Net Core application.
